@@ -1,0 +1,12 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+artifacts/*
+!artifacts/.gitkeep
+figures/*
+!figures/.gitkeep
+data/*
+!data/.gitkeep
+risk_output*.csv
+preds.csv

@@ -13,7 +13,7 @@ def _zero(s: pd.Series) -> pd.Series:
 
 def compute_sales_risk(df: pd.DataFrame, key=["ENCODED_MCT", "TA_YM"]) -> pd.DataFrame:
     d = df.sort_values(key).copy()
-    rS = d["RC_M1_SAA_RANK"];=
+    rS = d["RC_M1_SAA_RANK"]
     rC = d["RC_M1_TO_UE_CT_RANK"]
     rA = d["RC_M1_AV_NP_AT_RANK"]
     rX = d["APV_CE_RAT_RANK"]
