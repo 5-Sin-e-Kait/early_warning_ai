@@ -4,7 +4,6 @@ __pycache__/
 .idea/
 artifacts/*
 !artifacts/.gitkeep
-figures/*
 !figures/.gitkeep
 data/*
 !data/.gitkeep
