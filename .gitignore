@@ -4,9 +4,9 @@ __pycache__/
 .idea/
 artifacts/*
 !artifacts/.gitkeep
-figures/*
+figures/*.png
 !figures/.gitkeep
-data/*
+data/big_data_set1_f.csv
+data/ds2_monthly_usage.csv
+data/ds3_monthly_customers.csv
 !data/.gitkeep
-risk_output*.csv
-preds.csv
